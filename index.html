@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aplicaciones de Salud Electrónica</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #fff);
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .apps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .nfc-section {
+      margin-top: 50px;
+      text-align: center;
+      background-color: #e0f2f1;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .nfc-section h2 {
+      margin-top: 0;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #00796b;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+
+    a.button:hover {
+      background-color: #004d40;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💪 Aplicaciones Recomendadas para tu Salud y Entrenamiento</h1>
+
+  <div class="apps">
+    <div class="card">
+      <h2>MyFitnessPal</h2>
+      <p>Controla tus calorías, nutrientes y metas nutricionales con precisión.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.myfitnesspal.android" class="button">Descargar</a>
+    </div>
+    <div class="card">
+      <h2>1RM Calculator</h2>
+      <p>Calcula tu repetición máxima en ejercicios clave para optimizar tus entrenamientos.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.jimbu.onekilo" class="button">Descargar</a>
+    </div>
+    <div class="card">
+      <h2>FitNotes</h2>
+      <p>Registra tus rutinas de gimnasio de forma sencilla y eficiente.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.github.jamesgay.fitnotes" class="button">Descargar</a>
+    </div>
+  </div>
+
+  <div class="nfc-section">
+    <h2>✨ Accede También con Tecnología NFC</h2>
+    <p>Acerca tu celular a la etiqueta NFC para abrir esta página automáticamente.  
+    ¡Rápido, fácil y sin necesidad de escanear!</p>
+    <p><strong>¿Cómo funciona?</strong> Simplemente graba la URL de esta app en una etiqueta NFC usando una app como <em>NFC Tools</em>.</p>
+    <a href="https://play.google.com/store/apps/details?id=com.wakdev.wdnfc" class="button">Descargar NFC Tools</a>
+  </div>
+
+</body>
+</html>
